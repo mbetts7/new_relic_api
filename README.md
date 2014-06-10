@@ -1,6 +1,7 @@
 ## Instructions to get up and running
 
-#### In development
+#### Development:
 
 To run local server:
+
 `$ foreman run ruby app.rb`
