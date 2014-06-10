@@ -8,7 +8,7 @@ get '/' do
   'API endpoint for sending email'
 end
 
-get '/send_email.json' do
+post '/send_email.json' do
   m = MyEmailer.new
   m.send
   puts 'Email Sent'
